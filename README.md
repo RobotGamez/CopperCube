@@ -1,4 +1,4 @@
-# CopperCube - Source Code improvements
+# CopperCube 6 - Source Code improvements
 source file improvements for testing purposes before annual update
 
 User requires the game engine source code to work (Studio version). 
@@ -19,21 +19,24 @@ FPS CAMERA Usage
 
 Rotation Speed
 Javascript - setCopperCubeVariable(#CameraName.rotationspeed, speed wanted);
-or use drop down menu and use the "Set or Change a Variable"  - VariableName = #CameraName.rotationspeed, and Value = speed wanted
+or use drop down menu and use the "Set or Change a Variable"
+- VariableName = #CameraName.rotationspeed, and Value = speed wanted
 
 Jump Speed
 Javascript - setCopperCubeVariable(#CameraName.jumpspeed, speed wanted);
-or use drop down menu and use the "Set or Change a Variable"  - VariableName = #CameraName.jumpspeed, and Value = speed wanted
+or use drop down menu and use the "Set or Change a Variable"
+- VariableName = #CameraName.jumpspeed, and Value = speed wanted
 
 Can Fly
 Javascript - setCopperCubeVariable(#CameraName.canfly, true/false);
-or use drop down menu and use the "Set or Change a Variable"  - VariableName = #CameraName.canfly, and Value = true/false
+or use drop down menu and use the "Set or Change a Variable"
+- VariableName = #CameraName.canfly, and Value = true/false
 
 
 
 SPOT LIGHT
 use existing API - ccbSetSceneNodeProperty(spot light node, "Direction", x,y,z);
-player  torch effect can be run with this code (every 20ms or better) :
+player torch effect can be run with this code (every 20ms or better):
 
 var mouseX = ccbGetMousePosX();
 var mouseY = ccbGetMousePosY();
