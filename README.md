@@ -1,7 +1,6 @@
 # CopperCube - Source Code improvements
 source file improvements for testing purposes before annual update
 
-
 User requires the game engine source code to work (Studio version). 
 If you don't have this then the files wont be of any good to you...
 This is NOT the source code, but rather a few small snippets of the whole.
@@ -13,6 +12,7 @@ If you don't want to wait a whole year for these to be added into the engine by 
 - FPS Camera - can fly (on/off)
 - Spot Light - full control over direction and brightness etc dynamically
 - Terrain textures - adjust heights
+
 
 
 FPS CAMERA Usage
@@ -28,6 +28,7 @@ or use drop down menu and use the "Set or Change a Variable"  - VariableName = #
 Can Fly
 Javascript - setCopperCubeVariable(#CameraName.canfly, true/false);
 or use drop down menu and use the "Set or Change a Variable"  - VariableName = #CameraName.canfly, and Value = true/false
+
 
 
 SPOT LIGHT
